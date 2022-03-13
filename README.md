@@ -1,8 +1,8 @@
 # Spring Integration MQTT with IoT
 
-Spring boot demo project for testing Internet og Things integration.
+Spring boot demo project for testing integration with Internet of Things.
 
-HiveMQ was user as a message broker, and there are two approach:
+HiveMQ was used as a message broker, and there are two approach:
 1. HiveMQ can be spin up locally, as docker container, or
 2. Use HiveMQ cloud service, provided at https://www.hivemq.com
 ---
@@ -53,7 +53,7 @@ apt install nano
  unzip hivemq-file-rbac-extension-4.4.0.zip
  rm hivemq-file-rbac-extension-4.4.0.zip
 ```
-4. Users with credentials should be find in:
+4. Users with credentials should be found in:
 ```
 /opt/hivemq-ce-2021.3/extensions/hivemq-file-rbac-extension/credentials.xml
 ```
